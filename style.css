@@ -5,7 +5,7 @@
 }
 
 body{
-  color: white;
+  color: #d1c7c7;
   background: #171414;
   font-family: "Montserrat", sans-serif;
 }
@@ -37,7 +37,7 @@ section{
 
 .section-1 article{
   margin-left: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 25px;
   height: 100%;
   display: flex;
   align-items: center;
@@ -73,7 +73,11 @@ section{
 
 .section-1 h3{
   margin-bottom: 130px;
-  font-size: 22px;
+  font-size: 25px;
+}
+
+#section-1 h1{
+  font-size: 96px;
 }
 
 .section-1 h1{
@@ -88,14 +92,48 @@ section{
   position: absolute;
   height: 90%;
   z-index: -1;
-  opacity: 0.3;
-  margin-bottom: 30px;
+  opacity: 0.1;
+  margin-bottom: 40px;
 }
 
 .section-1 p{
   position: absolute;
-  left: 20px;
-  margin-bottom: 90px;
+  left: 30px;
+  margin-bottom: 33px;
+}
+
+.section-2, .section-3{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section-2 ul, .section-3 ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 65px;
+}
+
+.section-2 h1, .section-3 h1{
+  font-size: 96px;
+  font-weight: 700;
+  border-right: 1px solid #d1c7c7;
+  padding-right: 40px; 
+}
+
+ul, li{
+  list-style: none;
+}
+
+ul li img{
+  width: 150p;
+  height: 150px;;
+  transition: scale 0.3s ease;
+}
+
+ul li img:hover{
+  scale: 1.3;
 }
 
 .hr-1{
