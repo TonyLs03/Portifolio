@@ -6,7 +6,7 @@
 
 body{
   color: #d1c7c7;
-  background: #171414;
+  background: #1c2e4f;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -15,7 +15,7 @@ header{
   align-items: center;
   padding-left: 36px;
   height: 100px;
-  background: rgba(101, 90, 90, 0.06);
+  background: #141a29;
 }
 
 header h3{
